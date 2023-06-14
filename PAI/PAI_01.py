@@ -10,7 +10,7 @@ class Solution(object):
 
         # 팰린트롬인지 확인
         while len(strs) > 1:
-            if strs.pop(0) != strs.pop():
+            if strs.pop(0) != strs.pop(): # 첫문자, 마지막 문자 pop해서 비교
                 return False
 
         return True
