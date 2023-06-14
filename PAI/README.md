@@ -1,2 +1,3 @@
 ### 코딩테스트 연습
-- [X] 2748 피보나치 수 2 (동적 프로그래밍)
+
+- [x] [01 유효한 팰린드롬](https://leetcode.com/problems/valid-palindrome/) | 6장. 문자열 조작 | [PAI_01.py](PRAC-Algorithm-Python-BOJ/PAI/PAI_01.py)
