@@ -1,5 +1,7 @@
 # 유요한 팰린트롬, p138
 
+
+# 풀이1 : 리스트 활용
 class Solution(object):
     # 문자 or 숫자만 받고, 전부 소문자로 배열에 추가
     def isPalindrome(self, s: str) -> bool:
@@ -10,7 +12,29 @@ class Solution(object):
 
         # 팰린트롬인지 확인
         while len(strs) > 1:
-            if strs.pop(0) != strs.pop(): # 첫문자, 마지막 문자 pop해서 비교
+            if strs.pop(0) != strs.pop(): # pop(0) = index 0이므로 첫문자, pop() = 마지막 문자 뽑아서 비교
+                return False
+
+        return True
+
+
+
+# 풀이2 : deque로도 풀수 있음 pop(0) 대신 popleft
+# popleft가 더 빠름. popleft()는 O(1), pop(0)은 O(n)
+# -> pop(0)은 pop하고 뒤에 인자들을 앞으로 이동시켜야(땡겨야) 하기 때문에
+
+from collections import deque
+
+class Solution(object):
+    def isPalindrome(self, s:str) -> bool:
+        strs = deque()
+
+        for char in s:
+            if char.isalnum():
+                strs.append(char.lower())
+
+        while len (strs) > 1:
+            if strs.popleft() != strs.pop():
                 return False
 
         return True
