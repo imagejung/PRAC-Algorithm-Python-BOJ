@@ -20,9 +20,9 @@ class Solution(object):
 
 
 # 풀이2 : deque로도 풀수 있음 pop(0) 대신 popleft
-# popleft가 더 빠름. popleft()는 O(1), pop(0)은 O(n)
-# -> pop(0)은 pop하고 뒤에 인자들을 앞으로 이동시켜야(땡겨야) 하기 때문에
 
+# deque의 popleft가 더 빠름.
+# -> pop(0)은 pop하고 뒤에 인자들을 앞으로 이동시켜야(땡겨야) 하기 때문에 시간복잡도가 popleft()는 O(1), pop(0)은 O(n)
 from collections import deque
 
 class Solution(object):
