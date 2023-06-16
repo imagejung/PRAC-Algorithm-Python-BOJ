@@ -7,7 +7,6 @@
 | 번호 | 제목 | 난이도 | 장 | 풀이 코드 |
 | --- | --- | ---- | - | --- |
 | 1 | [유효한 팰린드롬](https://leetcode.com/problems/valid-palindrome/) | ★ | 6장. 문자열 조작 | [PAI_01.py](/Users/youngsang/Programming/practice/PRAC-Algorithm-Python-BOJ/PAI/PAI_01.py)
-
 | 2 | [문자열 뒤집기](https://leetcode.com/problems/reverse-string/) | ★ | 6장. 문자열 조작 | [2-1.py](2-python/ch06/2-1.py)<br>[2-2.py](2-python/ch06/2-2.py) |
 | 3 | [로그 파일 재정렬](https://leetcode.com/problems/reorder-data-in-log-files/) | ★ | 6장. 문자열 조작 | [3-1.py](2-python/ch06/3-1.py) |
 | 4 | [가장 흔한 단어](https://leetcode.com/problems/most-common-word/) | ★ | 6장. 문자열 조작 | [4-1.py](2-python/ch06/4-1.py) |
