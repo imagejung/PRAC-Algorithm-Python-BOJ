@@ -4,3 +4,4 @@
 - [x] [02 문자열 뒤집기](https://leetcode.com/problems/reverse-string/) | 6장. 문자열 조작 | [PAI_02.py](/PAI/PAI_02.py)
 - [x] [03 로그 파일 재정렬](https://leetcode.com/problems/reorder-data-in-log-files/) | 6장. 문자열 조작 | [PAI_03.py](/PAI/PAI_03.py) // 람다식 다시 보기
 - [x] [04 가장 흔한 단어](https://leetcode.com/problems/most-common-word/) | 6장. 문자열 조작 | [PAI_04.py](/PAI/PAI_04.py) // 정규식 다시 보기
+- [x] [05 그룹 애너그램](https://leetcode.com/problems/group-anagrams/) | 6장. 문자열 조작 | [PAI_05.py](/PAI/PAI_05.py) // defaultdict 활용법 확인
