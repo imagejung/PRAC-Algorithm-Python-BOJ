@@ -4,6 +4,7 @@
 class Solution:
     def trap(self, height: list[int]) -> int:
 
+        # 변수 설정
         volume = 0
         left = 0
         right = len(height)-1
