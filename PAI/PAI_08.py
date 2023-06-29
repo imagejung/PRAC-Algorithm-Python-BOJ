@@ -26,3 +26,7 @@ class Solution:
                 right -= 1
 
         return volume
+
+
+
+#스택으로 풀기
