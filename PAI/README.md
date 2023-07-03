@@ -9,4 +9,4 @@
 - [x] [08 빗물 트래핑](https://leetcode.com/problems/trapping-rain-water/) | 7장. 배열 | [PAI_08.py](/PAI/PAI_08.py) //  스택쌓기 안품
 - [x] [09 세 수의 합](https://leetcode.com/problems/3sum/) | 7장. 배열 | [PAI_09.py](/PAI/PAI_09.py)
 - [x] [10 배열 파티션 I](https://leetcode.com/problems/array-partition/) | 7장. 배열 | [PAI_10.py](/PAI/PAI_10.py)
-- [x] 
+- [x] [11 자신을 제외한 배열의 곱](https://leetcode.com/problems/product-of-array-except-self/) | 7장. 배열 | [PAI_11.py](/PAI/PAI_10.py)
