@@ -9,5 +9,3 @@ while n!=1:
         n/=i
     else:
         i+=1
-
-정
